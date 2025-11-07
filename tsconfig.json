@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    // Diretórios
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Ambiente Node.js
+    "target": "es2020",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "types": ["node"],
+    "esModuleInterop": true,
+
+    // Saída
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Tipagem e verificações
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
